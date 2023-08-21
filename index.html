@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="bg.jpg" id="bg">
+        <img src="moon.png" id="moon">
+        <img src="mountain.png" id="mountain">
+        <img src="road.png" id="road">
+        <h2 id="text">MOON LIGHT</h2>
+    </section>
+
+<div class="sec">
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima veritatis assumenda eum quia soluta voluptatem deserunt suscipit delectus reprehenderit sapiente neque eveniet, ad fugiat ea consectetur voluptas aspernatur architecto quasi quos dolorem? Ipsum unde esse dolor consectetur cum vel laboriosam et fuga tempora odio amet quo natus, veritatis placeat. Inventore, dicta quo! Beatae aliquam eius voluptatibus. Aut doloremque fugiat earum nesciunt quos animi voluptas velit quae soluta consequuntur officia quas obcaecati, voluptates eaque corrupti quia, nihil veritatis. Ducimus minus unde adipisci fuga optio iste porro veniam praesentium sit, exercitationem possimus nisi tempora magnam consequuntur explicabo doloribus consequatur illo animi ab odit quo incidunt. Ad voluptatibus natus placeat veniam exercitationem fugit alias blanditiis sed laboriosam culpa doloremque odit cum, nostrum rerum vel provident facere error odio esse dicta dolore. In veritatis dolorem et impedit laboriosam consequatur, odio, molestias assumenda ab hic placeat dolorum quisquam aliquam deleniti maxime ad optio! Ipsum, quod minima illo optio ad at enim iure reprehenderit dolorem blanditiis obcaecati quia. Voluptas ipsum, quae tempore ipsam ullam error saepe accusantium nihil obcaecati alias inventore, labore ea nemo, deleniti aut in ab eaque? Sunt, sit ipsa. Nostrum provident in consequuntur nobis. Id et perspiciatis cupiditate exercitationem atque facilis, incidunt nulla nemo deserunt veritatis doloribus dicta accusamus necessitatibus qui labore. Nihil tempora commodi, velit aliquam officia dolorum quasi, obcaecati, vero perferendis placeat ullam! Itaque mollitia eum saepe repudiandae, atque ratione, alias officiis iste dolorem vel quam odio inventore? Beatae fugiat cumque magni nam quam necessitatibus doloribus et cupiditate ipsum quaerat, dolorum tempora atque nemo nulla iste saepe veritatis suscipit voluptatibus neque. Nisi quibusdam modi quas laudantium eos tempora illo sequi consequuntur ipsum, odio dignissimos quos consectetur inventore, rem aliquid suscipit. Pariatur quia sit doloremque unde distinctio commodi sapiente cupiditate odio incidunt molestias magni, est consequuntur, quidem ex voluptate necessitatibus sed ratione? Ea excepturi mollitia dolore quasi fugit. Vel, ea aut. Optio ea nobis voluptatem, earum error fugiat architecto iure saepe tempora autem eos voluptatibus, culpa maiores nostrum mollitia natus dolore! Quod adipisci officia quam eum, doloremque odit ullam eligendi fugiat assumenda quisquam non odio perferendis error tenetur quidem ut, enim nobis facere, pariatur cupiditate exercitationem nisi? Voluptate rerum omnis neque maxime ullam tenetur reiciendis quis vel numquam nulla reprehenderit magnam impedit, ratione maiores ex hic qui atque minus ea quibusdam fuga? Commodi inventore dolorum autem enim possimus in rem ullam harum porro, dicta, ipsa repudiandae ut consequatur nobis fugiat vero. Ipsum alias itaque rem? Facilis corporis provident soluta est quia ut hic maiores nihil facere commodi. Aliquam nisi error, illo mollitia perferendis esse modi? Pariatur incidunt alias minima dolore nobis, impedit quaerat natus vel? Eum, doloribus, quam unde veritatis alias qui sapiente laborum maxime quod laudantium soluta corrupti eos a ratione, quisquam repellendus placeat ducimus. Quia voluptates eveniet fugit vel explicabo voluptate aspernatur amet culpa ab reiciendis pariatur ipsum inventore aut expedita harum, laudantium autem velit minus tempora nostrum officiis odio deleniti ratione! Repellendus dolores ab autem officiis dolorum, vel quaerat error esse animi dicta facere totam, quam at iure. Impedit?
+    </p>
+</div>
+
+
+
+
+    <script type ="text/javascript">
+        let bg=document.getElementById("bg");        
+        let moon=document.getElementById("moon");        
+        let mountain=document.getElementById("mountain");        
+        let road=document.getElementById("road");        
+        let text=document.getElementById("text");   
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+
+            bg.style.top= value * 0.5 +'px';
+            moon.style.left= -value * 0.5 + 'px';  
+            mountain.style.left= -value * 0.15 + 'px';  
+            road.style.top= value * 0.15 + 'px';  
+            text.style.top= value * 1 + 'px';  
+             
+ })     
+
+        
+
+
+    </script>
+    
+</body>
+</html>
